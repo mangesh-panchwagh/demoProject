@@ -52,6 +52,7 @@ public class StepDefinitions extends Utils{
 		// Constructor will be called with value of resource which you pass
 		APIResources resourceAPI = APIResources.valueOf(resource);
 		System.out.println(resourceAPI.getResource());
+		System.out.println(resourceAPI.getResource());
 		
 		resspec =new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
 		
