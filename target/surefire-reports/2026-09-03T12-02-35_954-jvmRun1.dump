@@ -1,0 +1,20 @@
+# Created at 2026-09-03T12:02:36.507
+org.testng.TestNGException: java.lang.NullPointerException: Cannot invoke "org.testng.xml.XmlSuite.setParsed(boolean)" because "currentXmlSuite" is null
+	at org.testng.TestNG.parseSuite(TestNG.java:342)
+	at org.testng.TestNG.initializeSuitesAndJarFile(TestNG.java:394)
+	at org.testng.TestNG.initializeEverything(TestNG.java:1059)
+	at org.testng.TestNG.run(TestNG.java:1071)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.testng.xml.XmlSuite.setParsed(boolean)" because "currentXmlSuite" is null
+	at org.testng.xml.internal.Parser.parse(Parser.java:156)
+	at org.testng.xml.internal.Parser.parse(Parser.java:241)
+	at org.testng.TestNG.parseSuite(TestNG.java:330)
+	... 10 more
+
+
