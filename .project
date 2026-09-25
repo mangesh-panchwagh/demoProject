@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>UdemyAPIFramework</name>
+=======
+	<name>demoProject</name>
+>>>>>>> e93051c124109ac198dc9ceb558aa067c3bf5ebb
 	<comment></comment>
 	<projects>
 	</projects>

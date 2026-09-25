@@ -3,6 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="cucumber.Options.TestRunner">
         <methods>
           <include name="setUpClass"/>
@@ -10,6 +11,13 @@
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- cucumber.Options.TestRunner -->
+=======
+      <class name="Basics.DynamicJson">
+        <methods>
+          <include name="addBook" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- Basics.DynamicJson -->
+>>>>>>> e93051c124109ac198dc9ceb558aa067c3bf5ebb
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
